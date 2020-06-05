@@ -5,6 +5,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
+import { FullwidthModule } from './layouts/fullwidth/fullwidth.module';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { SharedModule } from './shared/shared.module';
     BrowserModule,
     AppRoutingModule,
     DefaultModule,
-    SharedModule
+    SharedModule,
+    FullwidthModule
   ],
   providers: [],
   bootstrap: [AppComponent]
